@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>LOLCharacter.LOLCharacter</OriginalElement>
+  <nodes>
+    <node x="253.0" y="469.0">LOLPlay</node>
+    <node x="-17.0" y="10.0">StartLOL</node>
+    <node x="559.0" y="304.0">LOLCharacter.AdCarryCaitlynCharacter</node>
+    <node x="288.5" y="0.0">LOLCharacter.LOLCharacter</node>
+    <node x="279.0" y="304.0">LOLCharacter.AdCarryTwitchCharacter</node>
+    <node x="0.0" y="304.0">LOLCharacter.AdCarryQuinnCharacter</node>
+    <node x="253.0" y="609.0">AdCarryLOLPlay</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="LOLCharacter.AdCarryCaitlynCharacter" target="LOLCharacter.LOLCharacter">
+      <point x="0.0" y="-59.0" />
+      <point x="690.5" y="279.0" />
+      <point x="489.3333333333333" y="279.0" />
+      <point x="80.33333333333331" y="127.0" />
+    </edge>
+    <edge source="LOLCharacter.AdCarryTwitchCharacter" target="LOLCharacter.LOLCharacter">
+      <point x="0.0" y="-59.0" />
+      <point x="0.0" y="127.0" />
+    </edge>
+    <edge source="AdCarryLOLPlay" target="LOLPlay">
+      <point x="0.0" y="-31.5" />
+      <point x="0.0" y="45.0" />
+    </edge>
+    <edge source="LOLCharacter.AdCarryQuinnCharacter" target="LOLCharacter.LOLCharacter">
+      <point x="0.0" y="-59.0" />
+      <point x="129.5" y="279.0" />
+      <point x="328.6666666666667" y="279.0" />
+      <point x="-80.33333333333331" y="127.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="418.5" y="339.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

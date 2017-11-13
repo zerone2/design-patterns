@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>CustomerAdapter</OriginalElement>
+  <nodes>
+    <node x="205.0" y="500.0">Exec</node>
+    <node x="0.0" y="500.0">OldCustomer</node>
+    <node x="353.0" y="0.0">Address</node>
+    <node x="66.5" y="0.0">Customer</node>
+    <node x="17.5" y="167.0">NewCustomer</node>
+    <node x="0.0" y="334.0">CustomerAdapter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="CustomerAdapter" target="Customer">
+      <point x="77.0" y="-60.5" />
+      <point x="231.0" y="309.0" />
+      <point x="203.0" y="309.0" />
+      <point x="203.0" y="142.0" />
+      <point x="197.75" y="142.0" />
+      <point x="43.75" y="58.5" />
+    </edge>
+    <edge source="CustomerAdapter" target="NewCustomer">
+      <point x="-77.0" y="-60.5" />
+      <point x="77.0" y="309.0" />
+      <point x="105.0" y="309.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="NewCustomer" target="Customer">
+      <point x="0.0" y="-58.5" />
+      <point x="105.0" y="142.0" />
+      <point x="110.25" y="142.0" />
+      <point x="-43.75" y="58.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="272.0" y="308.5" />
+  <SelectedNodes>
+    <node>CustomerAdapter</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>cars.Car</OriginalElement>
+  <nodes>
+    <node x="837.0" y="195.0">cars.GranTurismo</node>
+    <node x="331.0" y="449.0">carExperts.FiatCarExpert</node>
+    <node x="0.0" y="559.0">cars.CarType</node>
+    <node x="418.5" y="0.0">cars.Car</node>
+    <node x="0.0" y="449.0">carExperts.MaseratiCarExpert</node>
+    <node x="558.0" y="196.0">cars.GranCabrio</node>
+    <node x="0.0" y="196.0">cars.Aegea</node>
+    <node x="165.5" y="305.0">carExperts.CarExpert</node>
+    <node x="166.0" y="559.0">Main</node>
+    <node x="279.0" y="196.0">cars.Fiat500C</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cars.GranCabrio" target="cars.Car">
+      <point x="0.0" y="-31.5" />
+      <point x="687.5" y="175.0" />
+      <point x="580.375" y="175.0" />
+      <point x="32.375" y="72.5" />
+    </edge>
+    <edge source="cars.Aegea" target="cars.Car">
+      <point x="0.0" y="-31.5" />
+      <point x="129.5" y="165.0" />
+      <point x="450.875" y="165.0" />
+      <point x="-97.125" y="72.5" />
+    </edge>
+    <edge source="cars.Fiat500C" target="cars.Car">
+      <point x="0.0" y="-31.5" />
+      <point x="408.5" y="175.0" />
+      <point x="515.625" y="175.0" />
+      <point x="-32.375" y="72.5" />
+    </edge>
+    <edge source="cars.GranTurismo" target="cars.Car">
+      <point x="0.0" y="-32.5" />
+      <point x="969.0" y="165.0" />
+      <point x="645.125" y="165.0" />
+      <point x="97.125" y="72.5" />
+    </edge>
+    <edge source="carExperts.FiatCarExpert" target="carExperts.CarExpert">
+      <point x="0.0" y="-32.5" />
+      <point x="486.5" y="424.0" />
+      <point x="398.75" y="424.0" />
+      <point x="77.75" y="47.0" />
+    </edge>
+    <edge source="carExperts.MaseratiCarExpert" target="carExperts.CarExpert">
+      <point x="0.0" y="-32.5" />
+      <point x="155.5" y="424.0" />
+      <point x="243.25" y="424.0" />
+      <point x="-77.75" y="47.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="550.5" y="324.5" />
+  <SelectedNodes>
+    <node>cars.Car</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>WeatherData</OriginalElement>
+  <nodes>
+    <node x="0.0" y="962.0">ObserverPattern</node>
+    <node x="909.0" y="676.5">CurrentConditionsDisplay</node>
+    <node x="606.0" y="690.0">ForecastDisplay</node>
+    <node x="267.625" y="520.0">Observer</node>
+    <node x="303.00000000000006" y="663.0">StatisticsDisplay</node>
+    <node x="709.5" y="520.0">DisplayElement</node>
+    <node x="0.0" y="690.0">ThirdPartyDisplay</node>
+    <node x="28.5" y="0.0">Subject</node>
+    <node x="0.0" y="167.0">WeatherData</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ForecastDisplay" target="Observer">
+      <point x="-70.75" y="-100.0" />
+      <point x="676.75" y="623.0" />
+      <point x="444.5" y="623.0" />
+      <point x="35.375" y="31.5" />
+    </edge>
+    <edge source="StatisticsDisplay" target="DisplayElement">
+      <point x="70.74999999999994" y="-127.0" />
+      <point x="515.25" y="643.0" />
+      <point x="774.75" y="643.0" />
+      <point x="-21.75" y="31.5" />
+    </edge>
+    <edge source="StatisticsDisplay" target="Observer">
+      <point x="-70.75000000000006" y="-127.0" />
+      <point x="-35.375" y="31.5" />
+    </edge>
+    <edge source="ThirdPartyDisplay" target="DisplayElement">
+      <point x="70.75" y="-100.0" />
+      <point x="212.25" y="633.0" />
+      <point x="731.25" y="633.0" />
+      <point x="-65.25" y="31.5" />
+    </edge>
+    <edge source="CurrentConditionsDisplay" target="Observer">
+      <point x="-80.75" y="-113.5" />
+      <point x="989.75" y="613.0" />
+      <point x="515.25" y="613.0" />
+      <point x="106.125" y="31.5" />
+    </edge>
+    <edge source="ForecastDisplay" target="DisplayElement">
+      <point x="70.75" y="-100.0" />
+      <point x="21.75" y="31.5" />
+    </edge>
+    <edge source="WeatherData" target="Subject">
+      <point x="0.0" y="-154.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="ThirdPartyDisplay" target="Observer">
+      <point x="-70.75" y="-100.0" />
+      <point x="70.75" y="623.0" />
+      <point x="303.0" y="623.0" />
+      <point x="-106.125" y="31.5" />
+    </edge>
+    <edge source="CurrentConditionsDisplay" target="DisplayElement">
+      <point x="80.75" y="-113.5" />
+      <point x="1151.25" y="603.0" />
+      <point x="861.75" y="603.0" />
+      <point x="65.25" y="31.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8066985645933015" x="616.0" y="512.5" />
+  <SelectedNodes>
+    <node>WeatherData</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

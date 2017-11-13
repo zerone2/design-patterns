@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Pilot</OriginalElement>
+  <nodes>
+    <node x="250.0" y="736.0">Exec</node>
+    <node x="248.0" y="520.0">Pilot</node>
+    <node x="286.0" y="207.5">EngineControls</node>
+    <node x="0.0" y="167.0">WingControls</node>
+    <node x="0.0" y="520.0">Wings</node>
+    <node x="572.0" y="140.0">Cockpit</node>
+    <node x="286.0" y="0.0">CommandController</node>
+    <node x="0.0" y="736.0">Engine</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="EngineControls" target="CommandController">
+      <point x="0.0" y="-100.0" />
+      <point x="0.0" y="45.0" />
+    </edge>
+    <edge source="Cockpit" target="CommandController">
+      <point x="0.0" y="-167.5" />
+      <point x="770.5" y="115.0" />
+      <point x="507.6666666666667" y="115.0" />
+      <point x="88.66666666666669" y="45.0" />
+    </edge>
+    <edge source="WingControls" target="CommandController">
+      <point x="0.0" y="-140.5" />
+      <point x="133.0" y="115.0" />
+      <point x="330.3333333333333" y="115.0" />
+      <point x="-88.66666666666669" y="45.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="484.5" y="413.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

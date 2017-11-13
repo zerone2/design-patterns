@@ -1,0 +1,21 @@
+public abstract class CeilingFanCommand implements Command {
+    CeilingFan ceilingFan;
+    int prevSpeed;
+
+    public CeilingFanCommand(CeilingFan ceilingFan){
+        this.ceilingFan = ceilingFan;
+    }
+    public void execute(){
+        prevSpeed = ceilingFan.getSpeed();
+    }
+    public void undo(){
+        if (prevSpeed == ceilingFan.HIGH)
+            ceilingFan.high();
+        else if (prevSpeed == ceilingFan.MEDIUM)
+            ceilingFan.medium();
+        else if (prevSpeed == ceilingFan.LOW)
+            ceilingFan.low();
+        else if (prevSpeed == ceilingFan.OFF)
+            ceilingFan.off();
+    }
+}

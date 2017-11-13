@@ -1,0 +1,10 @@
+package Manager;
+
+public class LiverpoolManager implements Manager {
+	public String getName() {
+		return "Jürgen Klopp";
+	}
+	public String getFavouriteformation() {
+		return "4-2-3-1";
+	}
+}

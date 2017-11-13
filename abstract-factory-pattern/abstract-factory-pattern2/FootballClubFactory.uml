@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Factory.FootballClubFactory</OriginalElement>
+  <nodes>
+    <node x="529.4282325029656" y="495.83629893238435">Stadium.LiverpoolStadium</node>
+    <node x="0.0" y="167.0">Factory.LiverpoolFactory</node>
+    <node x="140.0" y="0.0">Factory.FootballClubFactory</node>
+    <node x="254.0" y="497.0">Manager.BayernMonachiumManager</node>
+    <node x="0.0" y="497.0">Manager.LiverpoolManager</node>
+    <node x="-466.09727164887295" y="498.3155397390274">Team.LiverpoolTeam</node>
+    <node x="280.0" y="181.0">Factory.BayernMonachiumFactory</node>
+    <node x="728.4282325029656" y="495.83629893238435">Stadium.BayernMonachiumStadium</node>
+    <node x="659.4282325029656" y="382.83629893238435">Stadium.Stadium</node>
+    <node x="590.0593119810201" y="22.454329774614507">MakeClub</node>
+    <node x="-349.59727164887295" y="385.3155397390274">Team.Team</node>
+    <node x="-246.09727164887295" y="498.3155397390274">Team.BayernMonachiumTeam</node>
+    <node x="131.0" y="357.0">Manager.Manager</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Manager.BayernMonachiumManager" target="Manager.Manager">
+      <point x="0.0" y="-45.0" />
+      <point x="379.0" y="472.0" />
+      <point x="306.5" y="472.0" />
+      <point x="58.5" y="45.0" />
+    </edge>
+    <edge source="Stadium.LiverpoolStadium" target="Stadium.Stadium">
+      <point x="0.0" y="-31.5" />
+      <point x="618.9282325029656" y="470.83629893238435" />
+      <point x="697.1782325029656" y="470.83629893238435" />
+      <point x="-37.75" y="31.5" />
+    </edge>
+    <edge source="Manager.LiverpoolManager" target="Manager.Manager">
+      <point x="0.0" y="-45.0" />
+      <point x="117.0" y="472.0" />
+      <point x="189.5" y="472.0" />
+      <point x="-58.5" y="45.0" />
+    </edge>
+    <edge source="Factory.LiverpoolFactory" target="Factory.FootballClubFactory">
+      <point x="0.0" y="-72.5" />
+      <point x="130.0" y="142.0" />
+      <point x="205.0" y="142.0" />
+      <point x="-65.0" y="58.5" />
+    </edge>
+    <edge source="Stadium.BayernMonachiumStadium" target="Stadium.Stadium">
+      <point x="0.0" y="-31.5" />
+      <point x="850.9282325029656" y="470.83629893238435" />
+      <point x="772.6782325029656" y="470.83629893238435" />
+      <point x="37.75" y="31.5" />
+    </edge>
+    <edge source="Team.LiverpoolTeam" target="Team.Team">
+      <point x="0.0" y="-31.5" />
+      <point x="-366.09727164887295" y="473.3155397390274" />
+      <point x="-299.59727164887295" y="473.3155397390274" />
+      <point x="-50.0" y="31.5" />
+    </edge>
+    <edge source="Factory.BayernMonachiumFactory" target="Factory.FootballClubFactory">
+      <point x="0.0" y="-58.5" />
+      <point x="410.0" y="142.0" />
+      <point x="335.0" y="142.0" />
+      <point x="65.0" y="58.5" />
+    </edge>
+    <edge source="Team.BayernMonachiumTeam" target="Team.Team">
+      <point x="0.0" y="-31.5" />
+      <point x="-133.09727164887295" y="473.3155397390274" />
+      <point x="-199.59727164887295" y="473.3155397390274" />
+      <point x="50.0" y="31.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9066985645933016" x="223.52669039145883" y="392.4999999999999" />
+  <SelectedNodes>
+    <node>MakeClub</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ironman.IronManSuit</OriginalElement>
+  <nodes>
+    <node x="471.0" y="402.0">ironman.constants.SuitName</node>
+    <node x="0.0" y="235.0">ironman.suitTypes.markSuits.MarkThree</node>
+    <node x="740.0" y="235.0">ironman.suitTypes.markSuits.MarkEight</node>
+    <node x="0.0" y="542.0">abstractFactory.MarkSuitsFactory</node>
+    <node x="810.5" y="-16.79166666666667">ironman.IronManSuit</node>
+    <node x="642.0" y="679.0">ironman.constants.BodyType</node>
+    <node x="1110.0" y="232.0">ironman.suitTypes.busterSuits.ThorBuster</node>
+    <node x="370.0" y="235.0">ironman.suitTypes.markSuits.MarkOne</node>
+    <node x="223.0" y="542.0">abstractFactory.BusterSuitsFactory</node>
+    <node x="111.5" y="402.0">abstractFactory.SuitCreationFactory</node>
+    <node x="0.0" y="679.0">MainClass</node>
+    <node x="345.0" y="679.0">ironman.constants.Power</node>
+    <node x="1485.0" y="232.0">ironman.suitTypes.busterSuits.HulkBuster</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ironman.suitTypes.markSuits.MarkThree" target="ironman.IronManSuit">
+      <point x="0.0" y="-59.5" />
+      <point x="175.0" y="202.0" />
+      <point x="831.4" y="202.0" />
+      <point x="-83.60000000000002" y="91.0" />
+    </edge>
+    <edge source="ironman.suitTypes.markSuits.MarkEight" target="ironman.IronManSuit">
+      <point x="0.0" y="-59.5" />
+      <point x="0.0" y="91.0" />
+    </edge>
+    <edge source="ironman.suitTypes.markSuits.MarkOne" target="ironman.IronManSuit">
+      <point x="0.0" y="-59.5" />
+      <point x="545.0" y="212.0" />
+      <point x="873.2" y="212.0" />
+      <point x="-41.799999999999955" y="91.0" />
+    </edge>
+    <edge source="abstractFactory.BusterSuitsFactory" target="abstractFactory.SuitCreationFactory">
+      <point x="0.0" y="-46.0" />
+      <point x="324.5" y="517.0" />
+      <point x="263.75" y="517.0" />
+      <point x="50.75" y="45.0" />
+    </edge>
+    <edge source="ironman.suitTypes.busterSuits.HulkBuster" target="ironman.IronManSuit">
+      <point x="0.0" y="-62.5" />
+      <point x="1662.5" y="202.0" />
+      <point x="998.6" y="202.0" />
+      <point x="83.60000000000002" y="91.0" />
+    </edge>
+    <edge source="abstractFactory.MarkSuitsFactory" target="abstractFactory.SuitCreationFactory">
+      <point x="0.0" y="-46.0" />
+      <point x="101.5" y="517.0" />
+      <point x="162.25" y="517.0" />
+      <point x="-50.75" y="45.0" />
+    </edge>
+    <edge source="ironman.suitTypes.busterSuits.ThorBuster" target="ironman.IronManSuit">
+      <point x="0.0" y="-62.5" />
+      <point x="1287.5" y="212.0" />
+      <point x="956.8" y="212.0" />
+      <point x="41.799999999999955" y="91.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7741935483870968" x="920.0" y="416.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

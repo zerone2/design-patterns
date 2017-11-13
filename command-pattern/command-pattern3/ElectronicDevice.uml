@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Devices.ElectronicDevice</OriginalElement>
+  <nodes>
+    <node x="0.0" y="607.0">Commands.VolumeUpCommand</node>
+    <node x="698.4436536180309" y="196.10201660735467">Devices.Television</node>
+    <node x="1085.0" y="607.0">Commands.OnCommand</node>
+    <node x="462.4436536180309" y="196.10201660735467">Devices.Radio</node>
+    <node x="580.4436536180309" y="2.1020166073546847">Devices.ElectronicDevice</node>
+    <node x="693.0" y="607.0">Commands.VolumeDownCommand</node>
+    <node x="82.115065243179" y="177.45551601423486">Test</node>
+    <node x="78.8256227758007" y="15.60023724792407">Button</node>
+    <node x="533.25" y="438.0">Commands.AbstractCommand</node>
+    <node x="372.0" y="607.0">Commands.OffCommand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Devices.Television" target="Devices.ElectronicDevice">
+      <point x="0.0" y="-99.5" />
+      <point x="806.4436536180309" y="171.10201660735467" />
+      <point x="742.4436536180309" y="171.10201660735467" />
+      <point x="54.0" y="72.0" />
+    </edge>
+    <edge source="Devices.Radio" target="Devices.ElectronicDevice">
+      <point x="0.0" y="-99.5" />
+      <point x="570.4436536180309" y="171.10201660735467" />
+      <point x="634.4436536180309" y="171.10201660735467" />
+      <point x="-54.0" y="72.0" />
+    </edge>
+    <edge source="Commands.OffCommand" target="Commands.AbstractCommand">
+      <point x="0.0" y="-46.5" />
+      <point x="522.5" y="587.0" />
+      <point x="658.875" y="587.0" />
+      <point x="-41.875" y="59.5" />
+    </edge>
+    <edge source="Commands.VolumeUpCommand" target="Commands.AbstractCommand">
+      <point x="0.0" y="-46.5" />
+      <point x="176.0" y="577.0" />
+      <point x="575.125" y="577.0" />
+      <point x="-125.625" y="59.5" />
+    </edge>
+    <edge source="Commands.VolumeDownCommand" target="Commands.AbstractCommand">
+      <point x="0.0" y="-46.5" />
+      <point x="879.0" y="587.0" />
+      <point x="742.625" y="587.0" />
+      <point x="41.875" y="59.5" />
+    </edge>
+    <edge source="Commands.OnCommand" target="Commands.AbstractCommand">
+      <point x="0.0" y="-46.5" />
+      <point x="1235.0" y="577.0" />
+      <point x="826.375" y="577.0" />
+      <point x="125.625" y="59.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0514672686230249" x="693.3724792408068" y="393.0000000000001" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
